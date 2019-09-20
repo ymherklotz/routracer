@@ -7,3 +7,11 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+shaderc-sys = "0.5.0"
+vulkano = "0.14.0"
+vulkano-shaders = "0.13"
+vulkano-win = "0.14.0"
+winit = "0.19.3"
+
+[features]
+default = ["shaderc-sys/build-from-source"]
